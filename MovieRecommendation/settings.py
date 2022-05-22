@@ -123,8 +123,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "../frontend/dist/static")
+    os.path.join(BASE_DIR, "stat_file")
 ]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'MovieRecommendation/static')
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",

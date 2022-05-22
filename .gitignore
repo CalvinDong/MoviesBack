@@ -1,2 +1,4 @@
 model_knn.m
 moviePivot.h5
+MovieRecommendation/__pycache__
+MovieRecommendation/static/admin
